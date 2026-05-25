@@ -151,7 +151,7 @@ async def add_experiment(
     name: str = Form(...),
     short_code: str = Form(...),
     deadline: str = Form(...),
-    max_marks: float = Form(None),
+    max_marks: Optional[float] = Form(None),
     file: UploadFile = File(...),
     db: Session = Depends(get_db)
 ):

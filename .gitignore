@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+backend/uploads/
+database.db
+grader.db
+test_api.py
+backend/database.db
+backend/grader.db
+.env
